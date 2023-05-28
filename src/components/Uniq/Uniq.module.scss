@@ -1,0 +1,68 @@
+.uniq {
+    padding: 20px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: rgb(130, 139, 218, 60%);
+    height: 500px;
+    overflow: auto;
+
+    .back {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        button {
+            background-color: #4848db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: blue;
+        }
+    }
+
+    .todos {
+        div {
+            margin-bottom: 10px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        h1 {
+            display: inline-block;
+            font-size: 24px;
+            color: #4848db;
+            cursor: text;
+            border-bottom: 1px dashed #4848db;
+            padding: 0 2px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        p {
+            display: inline-block;
+            margin-left: 10px;
+            color: #4848db;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

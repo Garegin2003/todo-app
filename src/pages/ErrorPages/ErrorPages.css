@@ -1,0 +1,70 @@
+.err {
+  color: #d9d9d9;
+  background-color: #ffffff;
+  margin-top: 80px;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.err .err-num {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.err .err-num h1 {
+  font-size: 21.875rem;
+  width: 597px;
+  line-height: 0.9;
+  margin: 0 auto;
+  font-weight: 400;
+  color: #111111;
+}
+.err .error {
+  min-height: 550px;
+  padding: 50px 0;
+  background-color: #d9d9d9;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.err .error h1 {
+  font-size: 4.75rem;
+  font-weight: 400;
+  text-transform: none;
+  margin: 0 70px;
+  line-height: 1.1;
+  color: #111111;
+}
+.err .error p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-weight: 600;
+  width: 735px;
+  text-transform: none;
+  margin: 16px auto 0;
+  color: #4d4d4d;
+}
+.err .error a {
+  letter-spacing: 1px;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  font-size: 1.25rem;
+  border-style: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 48px auto 0;
+  padding: 17px 81px 19px 79px;
+  background-color: #4d4d4d;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+}/*# sourceMappingURL=ErrorPages.css.map */

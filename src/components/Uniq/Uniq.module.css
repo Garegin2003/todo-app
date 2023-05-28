@@ -1,0 +1,57 @@
+.uniq {
+  padding: 20px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 50px;
+  background-color: rgba(130, 139, 218, 0.6);
+  height: 500px;
+  overflow: auto;
+}
+.uniq .back {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.uniq .back button {
+  background-color: #4848db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.uniq .back h1 {
+  font-size: 24px;
+  color: blue;
+}
+.uniq .todos div {
+  margin-bottom: 10px;
+}
+.uniq .todos input[type=checkbox] {
+  margin-right: 10px;
+}
+.uniq .todos h1 {
+  display: inline-block;
+  font-size: 24px;
+  color: #4848db;
+  cursor: text;
+  border-bottom: 1px dashed #4848db;
+  padding: 0 2px;
+}
+.uniq .todos h1:focus {
+  outline: none;
+}
+.uniq .todos p {
+  display: inline-block;
+  margin-left: 10px;
+  color: #4848db;
+  cursor: pointer;
+}
+.uniq .todos p:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=Uniq.module.css.map */
